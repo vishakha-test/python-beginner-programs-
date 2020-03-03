@@ -1,0 +1,16 @@
+#wap to read list  of int from user and dispaly on the screen
+
+data=[] #the list's name is data
+
+reply = input("do u want to add some integers y/n ")  #y id the user wants to enter integers
+#while loop
+while reply == 'y':
+	ele = int(input("enter element"))   #taking in the integers
+	data.append(ele) #storing the elements into the list 
+	reply = input("do u want to add some more integers y/n")   
+
+print(data) #ro print the elements in the form of a list like... [1,2,3]
+
+for d in data:
+	print(d, end=' ')  #printing elements one by one like.... 1 2 3
+print()
