@@ -1,5 +1,5 @@
 import array
-
+#index represents position nyumber of an element in an array
 a= array.array('i',[10,20,40,50,30])
 print(a[3])
 print(a[0])
