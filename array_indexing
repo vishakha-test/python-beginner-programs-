@@ -1,0 +1,22 @@
+import array
+
+a= array.array('i',[10,20,40,50,30])
+print(a[3])
+print(a[0])
+print(a[-1])
+#print(a[-80])  
+#print(a[500])
+#print(a["1"])
+#print(a[3.2])
+
+#if index specified us not in the range then we get : IndexError: array index out of range
+# if index specified is not an integer then we get : TypeError: array indices  must be integers
+
+
+"""OUTPUT:
+indexing.py
+50
+10
+30
+"""
+
