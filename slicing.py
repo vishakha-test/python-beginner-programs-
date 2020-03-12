@@ -38,4 +38,8 @@ ValueError: slice step cannot be zero
 """
 
 
-""" note: for going in forward direction stepzize should be +ve and -ve to go in backward direction if stepsize is 0 we get value error"""
+""" note: 1)for going in forward direction stepzize should be +ve
+2)and -ve to go in backward direction 
+3)if stepsize is 0 we get value error
+4)in slicing we never get IndexErroe
+5)while slicing if the data is in the range we get element else []"""
